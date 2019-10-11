@@ -5,7 +5,7 @@
   "author": "Tara Matthew <taramatthew.93@gmail.com>",
   "license": "MIT",
   "nativescript": {
-    "id": "org.nativescript.application",
+    "id": "recipes.with.friends",
     "templateVersion": "v2",
     "tns-android": {
       "version": "6.0.0"
