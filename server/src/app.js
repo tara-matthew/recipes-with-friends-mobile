@@ -7,7 +7,7 @@ const config = require('./config/config')
 
 //Builds an Express server
 const app = express()
-app.use(morgan('combine'))
+app.use(morgan('combined'))
 app.use(bodyParser.json())
 app.use(cors())
 
