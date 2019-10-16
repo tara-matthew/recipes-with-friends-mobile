@@ -2,7 +2,12 @@ const AuthenticationController = require ('./controllers/AuthenticationControlle
 const AuthenticationControllerPolicy = require ('./policies/AuthenticationControllerPolicy')
 
 module.exports = (app) => {
-    app.post('/register',
-        AuthenticationControllerPolicy.register,
-        AuthenticationController.register)
-    }
+
+    app.get('/', function(req, res, next) {
+        res.send("Hello world");
+    });
+
+     app.post('/register',
+         AuthenticationControllerPolicy.register,
+         AuthenticationController.register
+ )}
