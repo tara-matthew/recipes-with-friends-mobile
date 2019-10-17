@@ -8,7 +8,7 @@ module.exports = {
         password: process.env.DB_PASS || 'recipeswithfriends',
         options: {
             dialect: process.env.DIALECT || 'sqlite',
-            host: process.env.HOST || '10.0.2.2',
+            host: '192.168.0.15',
             storage: path.resolve(__dirname, '../../recipeswithfriends.sqlite')
     }
 },
