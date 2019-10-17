@@ -1,5 +1,5 @@
 import Vue from 'nativescript-vue'
-import App from './components/Register'
+import Register from './components/Register'
 import Vuetify from 'vuetify'
 
 
@@ -15,5 +15,5 @@ new Vue({
     vuetify: new Vuetify( {
     }),
     store,
-    render: h => h('frame', [h(App)])
+    render: h => h('frame', [h(Register)])
 }).$start()
